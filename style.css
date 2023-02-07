@@ -1,0 +1,79 @@
+html {
+  /*height: 150vh;*/
+  background: rgb(72, 68, 68);
+  /*background-image: url(./cover.jpg);*/
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+  display: block;
+  position: relative;
+  width: 940px;
+  height: auto;
+  margin: 100px auto;
+
+}
+
+form h3 {
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  font-size: 32px;
+
+}
+
+form {
+  background: rgba(0, 0, 0, 0.393);
+  width: 600px;
+  height: auto;
+  margin: auto;
+  padding: 5px 5px;
+  border: 3px solid goldenrod;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+label {
+  display: block;
+  margin: 10px 0 10px 35px;
+  font-size: 18px;
+}
+
+.input {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  width: 85%;
+  padding: 8px 10px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+}
+
+form .button {
+  display: block;
+  margin: 35px auto 15px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  background: rgb(165, 163, 154);
+  border-radius: 5px;
+  width: 50%;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  transition: 0.5s background;
+}
+
+.button:hover {
+  background: rgb(250, 249, 248);
+
+}
